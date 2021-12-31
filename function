@@ -1,0 +1,19 @@
+fun main()
+{
+    sum(10,20)
+    var ans=addition(50,60)
+    println("Answer is:$ans")
+    var ans1=sum1(35,45)
+    println("Answer of inline function is $ans1")
+}
+fun sum(a:Int,b:Int)
+{
+
+    var sum=a+b
+    println("Summation is:$sum")
+
+}
+fun addition(a:Int,b:Int):Int{
+    return (a+b)
+}
+fun sum1(x:Int,y:Int)=x+y
